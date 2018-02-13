@@ -189,27 +189,28 @@ body {
 	
 }
 .track-container{
-	display: inline-flex;
+	display: flex;
+	margin: 0 140px;
 }
+
+
 .col-text{
-	
+	max-width: 50%;
+	/*margin-right: 10%;*/
+	margin-top: 60px;
+	/*background-color: grey;*/
 	text-align: right;
-
-	/*background-color: grey;*/
-}
-
-.col-text{
-	max-width: 40%;
-	margin-right: 10%;
-	margin-top: 68px;
-	/*background-color: grey;*/
 }
 
 .col-video{
-	min-width: 40%;
-	margin-left: 10%;
+	min-width: 48%;
+	/*margin-left: 10%;*/
 	margin-top: 5%
 	
+}
+.col-text, .col-video{
+	margin-right: 10px;
+	margin-left: 8px;
 }
 
 .col-text h1{
@@ -227,12 +228,11 @@ body {
 }
 
 .track1 p{
-	font-size: 16px;
 	color: white;
 }
 
+
 .col-text .underline::after{
-	display: table-cell;
 	margin-top: 2%;
 	margin-right: initial;
 }
@@ -240,6 +240,28 @@ body {
 	margin: auto;
 }
 
+/*.track2{
+	direction: ltr;
+}*/
 
+.track2 h2{
+	color: #333;
+}
+.track-container p{
+	margin-top: -15px;
+	font-size: 15px;
+	margin-left: 12px;
+}
+
+.track2 .track-container{
+	margin: 0 140px 0 144px; 
+}
+.track2 .col-text{
+	margin-right: 20px;
+}
+
+.track2 h2{
+	padding-left: 0;
+}
 
 
