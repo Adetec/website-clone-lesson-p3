@@ -200,6 +200,7 @@ body {
 	margin-top: 60px;
 	/*background-color: grey;*/
 	text-align: right;
+	flex-direction: column;
 }
 
 .col-video{
@@ -211,12 +212,14 @@ body {
 .col-text, .col-video{
 	margin-right: 10px;
 	margin-left: 8px;
+	/*display: inline-flex;*/
 }
 
 .col-text h1{
 	
 	font-size: 40px;
 	color: #11b7e6;
+	
 
 }
 .col-text h2{
